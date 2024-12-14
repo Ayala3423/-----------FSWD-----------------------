@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  justify-content: space-evenly;
+  width: 96%;
+}
+
+nav a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.home-page-link {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-font {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 150%;
+}
+
+a:hover {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav a {
+    font-size: 10px;
+  }
+
+  nav {
+    justify-content: start;
+    font-size: xx-small;
+    padding-left: 2%;
+  }
+
+  a:hover {
+    font-size: 17px;
+  }
+
+  .home-page-link {
+    width: 17px;
+    height: 17px;
+  }
+}
